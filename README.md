@@ -1,3 +1,3 @@
-# TODO API's
+# TODO Application console version
 
-Simple to-do API's based on NodeJs ES6
+Simple to-do application work with console only.
