@@ -4,6 +4,7 @@
   "description": "Simple TO DO application",
   "main": "app.js",
   "dependencies": {
+    "chalk": "^3.0.0",
     "yargs": "^15.0.2"
   },
   "devDependencies": {},

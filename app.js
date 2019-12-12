@@ -59,17 +59,10 @@ YARGS.command({
 })
 
 YARGS.command({
-    command: 'view',
-    describe: 'View the TO-DO',
-    builder: {
-        title: {
-            describe: 'TO-DO title',
-            demandOption: true,
-            type: 'string'
-        }
-    },
-    handler(argv) {
-        TODO.viewTodo(argv.title, argv.body)
+    command: 'showall',
+    describe: 'list all TO-DO',    
+    handler() {
+        TODO.listTodo()
     }
 })
 

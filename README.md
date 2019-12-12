@@ -17,5 +17,4 @@ Simple to-do application work with console only.
 
 ## Packages
 - YARGS https://www.npmjs.com/package/yargs
-
-
+- Chalk https://www.npmjs.com/package/chalk
